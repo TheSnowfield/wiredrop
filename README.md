@@ -1,6 +1,6 @@
 ## wiredrop
 
-As known as Apple has an AirDrop, so why can't we have a wiredrop?
+As known as Apple has an AirDrop, so why can't we have a wiredrop?  
 Yeah, this repo brings us wiredrop! :chaos laugh:
 
 wiredrop is written in Golang, fast and light-weight.  
@@ -22,12 +22,12 @@ The path of the URL is the secret key you used to send the file to peers.
 Example: http://wiredrop.example.com/the/secret/key  
 Above, the secret key is `the/secret/key`
 
-### Put A File
+### Put File
 ```bash
 $ curl http://wiredrop.example.com/file --upload-file <yourfile>
 ```
 
-### Receive A File
+### Receive File
 
 Sure, you can use curl, wget, and any command that can download the file
 ```bash
